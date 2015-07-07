@@ -273,7 +273,7 @@ class MonolithTest(unittest.TestCase):
                     horse += 1
         header.export_save()
 
-    def test_8_buy_cavalry(self):
+    def test_7_buy_cavalry(self):
         driver = self.driver
         driver.get(self.base_url)
         ml = DamagePageSection(driver)
